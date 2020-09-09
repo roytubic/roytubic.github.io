@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My blog</title>
+        <link href="/Users/roytubic/Desktop/blog-challenge/roytubic.github.io/styles/main.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="grid">
+            <section id="banner">
+            </section>
+        </div>
+        <div>
+            <div class="row filler">
+                <div class ="col-1 filler">
+                </div>
+                <div class ="col-3 bg-left">
+                    <ul>
+                        <h3 class="blog-heading">Roy's blog:</h3>
+                        <p class="list-heading"><a href="/Users/roytubic/Desktop/blog-challenge/roytubic.github.io/index.html">Home</a href></p>
+                        <p class="list-heading"><a href>About me</a href></p>
+                        <p class="list-heading"><a href="/Users/roytubic/Desktop/blog-challenge/roytubic.github.io/entries.html">Entries</a href></p>
+                        <p class="list-heading"><a href>Gallery</a href></p>
+                    </ul>
+                </div>
+                <div class ="col-7 bg-right">
+                    <div class="col-12">       
+                        <h1 id="title-heading">Sprint 2 - Technical</h1>
+                        <hr>
+                    </div>
+                    <br>
+                    <div>
+                        <h1 class="blog-heading">What are the best practices associated with using classes vs. ids?
+                        </h1>
+                        <p class="blog-text">Class tags and id tags are used to apply rules to your elements in your HTML file via a CSS file or via inline styling. Basically, they are used to tell information on a website to be presented in a certain way, such as font color, positioning, borders and so on. 
+                            Class tags are identified by using the . symbol before the tag name, while id tags use the # symbol.</p>
+                            <br>
+                        <h1 class="blog-heading">The differences between class and id.
+                        </h1>
+                        <p class="blog-text">The main difference between the two, is that class tags can be reused for multiple elements, while id tags are unique and can not. If comparing to cars, class tags are like the make of a car, while id tags are like the specific number plate.
+                            Many cars share the same shape, colours and motors which is comparable to using class tags, while every car has a specific number plate, which is similar to how id tags word.
+                        </p>
+                        <br>
+                        <p class="blog-text">The other main difference is that id tags have higher priority than class tags. This means that when an class and an id are applied to the same element, and they are both affecting the same trait, the rule set in the id tag will prevail.
+                            </p>
+                            <br>
+                        <p class="blog-text">Refer to the below image:</p>
+                        <br>
+                        <img src="/Users/roytubic/Desktop/blog-challenge/roytubic.github.io/blog/priority-example.png" alt="priority-example" class="image">
+                        <p class="image-note">*As you can see the id tag holds priority here.</p>
+                        <br>
+                        <p class="blog-text">The other difference, is that multiple class tags can be applied to an element. Id tags can not. This makes it handy to apply rules from different class tags to the same element.
+                        </p>
+                        <br>
+                        <p class="blog-text">Refer to the below image:</p>
+                        <img src="/Users/roytubic/Desktop/blog-challenge/roytubic.github.io/blog/multiple-classes.png" alt="multiple-classes" class="image">
+                        <p class="image-note">*When more than one class uses the same trait rule, the last class tag will take priority.</p>
+                        <br>
+                        <h1 class="blog-heading">When should I use each tag? When is one better than the other?</h1>
+                        <br>
+                        <p class="blog-text">In general, the class tag function has much more functionality than the id tag. However,there may be specific times where id will be more beneficial.</p>
+                        <br>
+                        <p class="blog-text">For example, if you were working with somebody elses stylesheet, but you wanted to change a few traits on one element. In this case, you may not want to change the entire class or make a new one from scratch. This is where id tags are handy.</p>
+                        <br>
+                        <p class="blog-text">In this scenario you could create an id tag for all of the traits you wanted to change and apply it to the element. As id tags take priority, it'll overwrite the relevant class functions, but leave the rest. This can be very handy for collaboration work.</p>
+                        <br>
+                        <p class="blog-text">In the end, it really comes down to context. Class tags have much more functionality, and allow you to repeat styling. However, id tags can help you when you're already using a hardset of styling rules and it can be helpful with applying Javascript rules. More on this in the future.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
